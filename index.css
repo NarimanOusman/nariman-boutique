@@ -34,14 +34,17 @@
 
 .nav .nav-items ul {
 display: flex;
-gap: 20%;
+gap: 10%;
 list-style: none;
+align-items: center;
 
 }
 
 .nav .nav-icons {
-    padding-right: 20px;
-    gap: 30px; 
+    padding-right: 10px;
+    padding-left: 20px;
+    gap: 20px; 
+    display: flex;
     
 }
 
@@ -81,7 +84,7 @@ padding : 70px
   background-color: #FFCB77;
   color: #800E13;
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
   cursor: pointer;
   width: 400px;
     
@@ -90,4 +93,13 @@ padding : 70px
   font-weight: bold;
 
   
+}
+
+.nav-items li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
 }
