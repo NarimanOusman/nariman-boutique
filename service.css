@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+
+
+.services-list {
+  padding: 70px 8%;
+  background-color: #ffffff;
+}
+
+.services-list .section-title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+
+.service-hero {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; 
+
+  width: 100%;
+background-image: linear-gradient(rgba(0, 0, 0, 0.25)), url('assets/service2.jpg');
+display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+padding : 70px
+}
+
+
+.service-hero .hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.service-hero h1 {
+  font-size: 4rem;
+  color: #ffffff;
+
+  margin-bottom: 20px;
+  line-height: 1.1;
+  font-weight: 800;
+
+
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.service-hero p {
+  font-size: 1.3rem;
+  color: #f1f1f1;
+  line-height: 1.6;
+  max-width: 650px;
+  margin: 0 auto;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Remove the old hero-image class since the image is now the background */
+.services-list .section-title h2 {
+  font-size: 2.2rem;
+  color: #0e90d1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.service-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  width: calc(33.333% - 20px);
+  min-width: 280px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.service-card .card-img {
+  width: 100%;
+  height: 180px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.service-card .card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.service-card h3 {
+  font-size: 1.25rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+
