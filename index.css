@@ -44,3 +44,50 @@ list-style: none;
     gap: 30px; 
     
 }
+
+
+.home-hero {
+  background-image: url('assets/lshooping.avif');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; 
+  width: 100%;
+background-image: linear-gradient(rgba(0, 0, 0, 0.25)), url('assets/lshooping.avif');
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+padding : 70px
+}
+
+.hero-title, 
+.hero-btn {
+  position: relative;
+  z-index: 2; 
+}
+
+
+.hero-title {
+  color: #FFCB77;
+  font-size: 5rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  opacity: 70%;
+}
+
+.hero-btn {
+  padding: 12px 24px;
+  background-color: #FFCB77;
+  color: #800E13;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 400px;
+    
+  opacity: 70%;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  
+}
