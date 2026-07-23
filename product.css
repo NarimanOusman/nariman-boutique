@@ -1,0 +1,60 @@
+*{
+    font-family: "Jost", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.product-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 5% 40px; 
+  min-height: 80vh;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.product-hero-text {
+  flex: 1.2;          
+  max-width: 650px;   
+}
+
+.product-title {
+  color: #800E13;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.welcome-heading {
+  display: block;
+  font-size: 3.8rem;
+}
+
+.sub-heading {
+  display: block;
+  font-size: 2.2rem;
+}
+
+.product-description {
+  color: #D97706;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+
+.product-hero-image {
+  flex: 1.8;                
+  
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.product-hero-image img {
+  width: 100%;                
+  max-width: 900px;           
+  height: auto;
+  object-fit: contain;
+}
