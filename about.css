@@ -82,10 +82,10 @@
 }
 
 .story-img img {
-  width: 100%;
+  width: 450px;
   height: 450px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 50%;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
 }
 
