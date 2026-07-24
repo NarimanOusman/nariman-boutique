@@ -61,6 +61,7 @@ padding : 70px
   max-width: 650px;
   margin: 0 auto;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  
 }
 
 .services-list .section-title h2 {
@@ -74,23 +75,18 @@ padding : 70px
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
+  
 }
 
 .service-card {
-  background: #fff;
-  border: 1px solid #eee;
+  background: #e7cccc;
+  border: 2px solid #6e0909;
   border-radius: 10px;
   width: calc(33.333% - 20px);
   min-width: 280px;
   padding: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.service-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
-}
 
 .service-card .card-img {
   width: 100%;
@@ -108,7 +104,7 @@ padding : 70px
 
 .service-card h3 {
   font-size: 1.25rem;
-  color: #222;
+  color: #790101;
   margin-bottom: 10px;
 }
 
@@ -126,7 +122,7 @@ padding : 70px
 
 .why-choose-us {
   padding: 80px 8%;
-  background-color: #fcfaf8;
+  background-color: #e8e3de;
 }
 
 .choose-container {
@@ -184,7 +180,7 @@ padding : 70px
 
 .shopping-process {
   padding: 80px 8%;
-  background-color: #ffffff;
+  background-color: #ddd2d2;
   text-align: center;
 }
 
@@ -196,7 +192,7 @@ padding : 70px
 }
 
 .shopping-process .section-title p {
-  color: #666;
+  color: #383333;
   font-size: 1.05rem;
   margin-bottom: 50px;
 }
@@ -209,19 +205,15 @@ padding : 70px
 }
 
 .step-card {
-  background: #fdfbf7;
-  border: 1px solid #c65359;
+  background: #e4d5b7;
+  border: 1px solid #961017;
   border-radius: 10px;
   padding: 30px 20px;
   flex: 1;
   min-width: 220px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
-  transition: transform 0.2s ease;
 }
 
-.step-card:hover {
-  transform: translateY(-5px);
-}
 
 .step-num {
   display: inline-block;
@@ -230,7 +222,7 @@ padding : 70px
   font-size: 0.9rem;
   font-weight: bold;
   padding: 6px 12px;
-  border-radius: 20px;
+  border-radius: 10px;
   margin-bottom: 15px;
 }
 
