@@ -1,0 +1,243 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+
+.about-hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  padding: 90px 8%;
+  gap: 60px;
+  background: transparent;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-hero .hero-left {
+  flex: 1;
+  max-width: 580px;
+}
+
+.about-hero h1 {
+  font-size: 3.2rem;
+  color: #6c0155;
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.about-hero p {
+  font-size: 1.15rem;
+  color: #555555;
+  line-height: 1.7;
+  max-width: 100%;
+  margin: 0;
+}
+
+.about-hero .hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.about-hero .hero-right img {
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  margin-top:15%;
+}
+
+
+
+
+.our-story {
+  padding: 110px 8%;
+  background-color: #fbf9f5; 
+  border-top: 1px solid #f0eee6;
+  border-bottom: 1px solid #f0eee6;
+}
+
+.story-container {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.story-img {
+  flex: 1;
+}
+
+.story-img img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+}
+
+.story-text {
+  flex: 1;
+}
+
+.story-text h2 {
+  font-size: 2.6rem;
+  color: #1a1a1a;
+  margin-bottom: 24px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.story-text p {
+  font-size: 1.08rem;
+  color: #555;
+  line-height: 1.75;
+  margin-bottom: 20px;
+}
+
+
+.core-values {
+  padding: 110px 8%;
+  background-color: #fdfbf7;
+  border-top: 1px solid #f0ece1;
+  border-bottom: 1px solid #f0ece1;
+}
+
+.core-values .section-title {
+  max-width: 600px;
+  margin-bottom: 60px;
+  text-align: left; 
+}
+
+.core-values .section-title h2 {
+  font-size: 2.4rem;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+
+.core-values .section-title p {
+  color: #666;
+  font-size: 1.05rem;
+}
+
+.values-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  max-width: 900px;
+}
+
+.value-card {
+  display: flex;
+  align-items: baseline;
+  gap: 30px;
+  background: #ffffff;
+  padding: 30px 35px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+  border: 1px solid #f4f0e6;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.value-card:hover {
+  transform: translateX(6px);
+  border-color: #800E13;
+}
+
+.value-card h3 {
+  font-size: 1.2rem;
+  color: #1a1a1a;
+  font-weight: 600;
+  min-width: 220px;
+  border-left: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.value-card h3::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #800E13;
+  border-radius: 50%;
+}
+
+.value-card p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+}
+
+
+
+.about-cta {
+  padding: 110px 8%;
+  background-image: url('assets/cta.avif');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #630303;
+  position: relative;
+  overflow: hidden;
+  opacity: 0.85;
+}
+
+.cta-box {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.cta-box h2 {
+  font-size: 2.8rem;
+  margin-bottom: 16px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+.cta-box p {
+  font-size: 1.1rem;
+  margin-bottom: 35px;
+  color: #e4d1ad;
+  line-height: 1.65;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #ded7d7;
+  color: #1a1a1a;
+  padding: 15px 38px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+
+.cta-btn:hover {
+  color: #ffffff;
+  transform: translateY(-2px);
+
+}

@@ -6,7 +6,6 @@
 }
 
 
-
 .services-list {
   padding: 70px 8%;
   background-color: #ffffff;
@@ -64,7 +63,6 @@ padding : 70px
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* Remove the old hero-image class since the image is now the background */
 .services-list .section-title h2 {
   font-size: 2.2rem;
   color: #0e90d1;
